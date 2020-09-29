@@ -11,6 +11,8 @@ selector. This is essentially a catch-all selector that says,
     --primary-color: #fce138;
     --secondary-color: #024e76;
     --tertiary-color: #39a6b2;
+    --hovering-effect: rgba(2, 79, 121, 0.5);
+
 }
 
 
@@ -377,7 +379,7 @@ section{
   }
   
 .box1{
-    background-image: url(../images/Run-Buddy.png);
+    background-image: url(../images/jobPsychic.png);
     grid-column-start: 1;
     grid-column-end: 3;
     grid-row-start: 1;
@@ -388,19 +390,19 @@ section{
 
 
 .box2 {
-    background-image: url(../images/image-2.jpg);
+    background-image: url(../images/codeQuiz.png);
     background-position: center;
     background-size: cover;
 }
 
 .box3 {
-    background-image: url(../images/image-3.jpg);
+    background-image: url(../images/weatherDashboard.png);
     background-position: center;
     background-size: cover;
 }
 
 .box4 {
-    background-image: url(../images/image-4.jpg);
+    background-image: url(../images/workDayScheduler.png);
     background-position: center;
     background-size: cover;
 }
@@ -411,8 +413,12 @@ section{
     background-size: cover;
 }
 
-.boxtext {
+.mainBox {
     color: var(--primary-color);
+}
+
+.boxText{
+    color: var(--secondary-color)
 }
 /* When hovering the icons */
 
@@ -424,8 +430,10 @@ section{
     padding: 5px 5px;
 }
 
+
 .box1 a:hover {
     background-color: var(--hovering-effect);
+
 }
 
 .box2 a:hover {
